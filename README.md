@@ -1,5 +1,7 @@
+### Linden Parkes Resume
+
 ### Preview
-![Resume Screenshot](/parkes_linden_cv.png)
+![Resume Screenshot](/parkes_linden_cv.pdf)
 
 ### License
 Format is MIT but all the data is owned by Sourabh Bajaj.
