@@ -1,0 +1,189 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Linden Parkes, Ph.D.}} & GitHub: \href{https://github.com/lindenmp/}{\underline{lindenmp}} \\
+  Email: \href{mailto:lindenparkes@gmail.com}{\underline{lindenparkes@gmail.com}} & Twitter: \href{https://twitter.com/LindenParkes}{\underline{@LindenParkes}} \\
+  Google Scholar: \href{https://scholar.google.com.au/citations?user=JT4AhnoAAAAJ&hl=en}{\underline{Linden Parkes}} & LinkedIn: \href{https://www.linkedin.com/in/lindenparkes/}{\underline{Linden Parkes}} \\
+  % & Mobile: +1-267-949-6127 \\
+
+  % \textbf{{\Large Linden Parkes, Ph.D.}} & \href{https://github.com/lindenmp/}{\underline{GitHub}}, \href{https://twitter.com/LindenParkes}{\underline{Twitter}}, \\
+  % \href{mailto:lindenparkes@gmail.com}{\underline{lindenparkes@gmail.com}} & \href{https://scholar.google.com.au/citations?user=JT4AhnoAAAAJ&hl=en}{\underline{Google Scholar}}, \href{https://www.linkedin.com/in/lindenparkes/}{\underline{LinkedIn}} \\
+  % & Mobile: +1-267-949-6127 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Monash University}{Melbourne, Australia}
+      {Doctor of Philosophy}{2014 -- June 2019}
+    \resumeSubheading
+      {Swinburne University of Technology}{Melbourne, Australia}
+      {Bachelor of Science (Psychology, Psychophysiology). Honors (capstone research project). First Class. Dux.}{2009 -- 2013}
+      \item[] \textbf{Relevant Coursework}: Statistics, Design \& Research Methods, Technology \& Data Acquisition, Advanced Quantitative Methods
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {The University of Pennsylvania}{Philadelphia, PA}
+      {Postdoctoral Research Fellow}{June 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Predictive Modeling}
+          {Anomaly detection in normative models of brain development.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {The University of Pennsylvania}{Philadelphia, PA}
+      {Teaching Assistant}{2019}
+      \resumeItemListStart
+        \resumeItem{Guest Lecturer}
+          {Preparation and delivery of teaching material for a class on Network Neuroscience.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Donders Institute for Brain, Cognition and Behaviour}{Nijmegen, The Netherlands}
+      {Visiting Research Fellow}{Sept. 2018 - Oct. 2018}
+      \resumeItemListStart
+        \resumeItem{Predictive Modeling}
+          {Contributed to development of \href{https://github.com/amarquand/nispat/graphs/contributors}{{\underline{Python library}}} used by institute and collaborators.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Torus Games}{Melbourne, Australia}
+      {Visiting Research Fellow}{2016 - 2017}
+      \resumeItemListStart
+        \resumeItem{Firebase}
+          {Workflows for ingest and storage of data in Firebase. Wrote code to download and process data used by other scientists. Code available on request.}
+      \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Monash University}{Melbourne, Australia}
+    %   {Teaching Assistant}{2017 - 2018}
+    %   \resumeItemListStart
+    %     \resumeItem{Guest Lecturer}
+    %       {Preparation and delivery of teaching material for a class on Neuroscience Methods.}
+    %   \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Swinburne University of Technology}{Melbourne, Australia}
+    %   {Teaching Assistant}{2013 - 2015}
+    %   \resumeItemListStart
+    %     \resumeItem{Recitation Tutor}
+    %       {Preparation and delivery of teaching material for undergraduate Psychology, Physiology, and Statistics courses.}
+    %   \resumeItemListEnd    
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Anomaly detection in brain development}
+      {Academic Science. Predictive modeling project in brain development throughout childhood and adolescence. Detected developmental brain abnormalities associated with psychiatric disorder. Predictive models trained with \textbf{Gaussian Process Regression} including statistical anomaly detection incorporating \textbf{aleatoric and epistemic uncertainty}. All code written in \textbf{Python} using \textbf{Jupyter notebooks} and publically available on my \href{https://github.com/lindenmp/NormativeNeuroDev_CrossSec}{\underline{Github}}.}
+    \resumeSubItem{Genetic signatures of the human subcortex}
+      {Academic Science. Application of \textbf{unsupervised (\textit{k-means clustering}) and supervised (\textit{support vector machines}) machine learning} to the intersection of human brain imaging and genetics. \href{https://onlinelibrary.wiley.com/doi/full/10.1111/gbb.12386}{\underline{Paper}} published in leading \textbf{peer-reviewed journal}. Publication ranked in the \textbf{top 20 downloaded} from the journal in 2017.}
+    \resumeSubItem{Processing and quality control of brain imaging data}
+      {Academic Science. Designed and wrote pipelines for processing of large brain imaging datasets, including quality control reports. Implemented pipelines on multiple open-access datasets used for subsequent projects by myself and other scientists. \href{https://www.sciencedirect.com/science/article/pii/S1053811917310972}{\underline{Paper}}, including recommendations for the field, published in leading \textbf{peer-reviewed journal}. All code publically available on my \href{https://github.com/lindenmp/rs-fMRI}{\underline{Github}}. Publication ranked by the journal in the \textbf{top 20 downloaded} and in the \textbf{top 0.01\% most cited} publications in 2018 in the field of Neuroscience.}
+    \resumeSubItem{Causal models of brain circuits in psychiatric disorders}
+      {Academic Science. Generative models of brain dynamics to assess dysfunction in brain circuits in psychiatry. \href{https://www.sciencedirect.com/science/article/pii/S1053811919306585}{\underline{Paper}} published in leading \textbf{peer-reviewed journal}. All code publically available on my \href{https://github.com/lindenmp/rs-fMRI/tree/master/stats/spDCM}{\underline{Github}}.}
+    \resumeSubItem{Emotion processing in language}
+      {Undergraduate capstone research project examining how the brain responds to emotionally-loaded sentences that include a mismatch in emotional context. \textbf{Thesis received highest grade in cohort}. \href{https://onlinelibrary.wiley.com/doi/abs/10.1111/psyp.12601}{\underline{Paper}} published in leading \textbf{peer-reviewed journal}.}
+  \resumeSubHeadingListEnd
+
+
+% --------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+    \textbf{Machine Learning}{: Classification, Unsupervised Clustering, Regression (Linear, Non-linear, Regularized), Cross-validation, Model Scoring, Parameter Tuning, Feature Selection \& Standardization, Dimensionality Reduction}
+    }
+   \item{
+    \textbf{Statistics}{: Experimental Design (e.g., A/B Testing), Null Hypothesis Testing, Analysis of Variance, Data Resampling (e.g., permutation, bootstrapping), Dependent Data (e.g., repeated measures), Bayesian Inference, Time Series Analysis, Network Science}
+    }
+   \item{
+    \textbf{Coding}{: Python (Pandas, NumPy, SciPy, Scikit-Learn, \href{https://pingouin-stats.org/}{\underline{Pingouin}}, Statsmodels, Matplotlib, Seaborn), Matlab, Shell, Git, Linux OS, LaTeX, SQL (familiar)}
+    }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
