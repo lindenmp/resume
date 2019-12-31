@@ -1,5 +1,3 @@
-### Linden Parkes Resume
-
 ### Preview
 ![Resume Screenshot](/parkes_linden_cv.png)
 
