@@ -17,7 +17,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage[margin=0.3in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -75,10 +75,13 @@
 \begin{document}
 
 %----------HEADING-----------------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{{\Large Linden Parkes, Ph.D.}} & GitHub: \href{https://github.com/lindenmp/}{\underline{lindenmp}} \\
+%   Email: \href{mailto:lindenparkes@gmail.com}{\underline{lindenparkes@gmail.com}} & Twitter: \href{https://twitter.com/LindenParkes}{\underline{@LindenParkes}} \\
+%   Publication list: \href{https://scholar.google.com.au/citations?user=JT4AhnoAAAAJ&hl=en}{\underline{Linden Parkes}} & LinkedIn: \href{https://www.linkedin.com/in/lindenparkes/}{\underline{Linden Parkes}} \\
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\Large Linden Parkes, Ph.D.}} & GitHub: \href{https://github.com/lindenmp/}{\underline{lindenmp}} \\
-  Email: \href{mailto:lindenparkes@gmail.com}{\underline{lindenparkes@gmail.com}} & Twitter: \href{https://twitter.com/LindenParkes}{\underline{@LindenParkes}} \\
-  Publication list: \href{https://scholar.google.com.au/citations?user=JT4AhnoAAAAJ&hl=en}{\underline{Linden Parkes}} & LinkedIn: \href{https://www.linkedin.com/in/lindenparkes/}{\underline{Linden Parkes}} \\
+  Email: \href{mailto:lindenparkes@gmail.com}{\underline{lindenparkes@gmail.com}} & Publication list: \href{https://scholar.google.com.au/citations?user=JT4AhnoAAAAJ&hl=en}{\underline{Linden Parkes}} \\
   % & Mobile: +1-267-949-6127 \\
 
   % \textbf{{\Large Linden Parkes, Ph.D.}} & \href{https://github.com/lindenmp/}{\underline{GitHub}}, \href{https://twitter.com/LindenParkes}{\underline{Twitter}}, \\
@@ -86,63 +89,74 @@
   % & Mobile: +1-267-949-6127 \\
 \end{tabular*}
 
-%-----------EDUCATION-----------------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Monash University}{Melbourne, Australia}
-      {Doctor of Philosophy (Neuroscience, Psychology, Psychiatry)}{2014 -- June 2019}
-    \resumeSubheading
-      {Swinburne University of Technology}{Melbourne, Australia}
-      {Bachelor of Science (Psychology, Psychophysiology)}{2009 -- 2013}
-      \item[] \textit{Honours (capstone research project), First Class, Dux (top of the class)}
-      % \item[] \textbf{Relevant Coursework}: Statistics, Design \& Research Methods, Technology \& Data Acquisition, Advanced Quantitative Methods
-  \resumeSubHeadingListEnd
+% %-----------EDUCATION-----------------
+% \section{Education}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Monash University}{Melbourne, Australia}
+%       {Doctor of Philosophy (Neuroscience, Psychology, Psychiatry)}{2014 -- June 2019}
+%     \resumeSubheading
+%       {Swinburne University of Technology}{Melbourne, Australia}
+%       {Bachelor of Science (Psychology, Psychophysiology)}{2009 -- 2013}
+%       \item[] \textit{Honours (capstone research project), First Class, Dux (top of the class)}
+%       % \item[] \textbf{Relevant Coursework}: Statistics, Design \& Research Methods, Technology \& Data Acquisition, Advanced Quantitative Methods
+%   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Experience \& Training}
   \resumeSubHeadingListStart
 
     \resumeSubheading
       {The University of Pennsylvania}{Philadelphia, PA}
       {Postdoctoral Research Fellow}{March 2019 - Present}
       \resumeItemListStart
-        \resumeItem{Predictive Modeling}
-          {Successfully detected developmental brain abnormalities associated with psychiatric disorders}
+        \item{Network \& machine learning analysis of neuroimaging data}
       \resumeItemListEnd
 
     \resumeSubheading
       {The University of Pennsylvania}{Philadelphia, PA}
-      {Teaching Assistant}{Fall 2019}
+      {Guest Lecturer}{Fall 2019}
       \resumeItemListStart
-        \resumeItem{Guest Lecturer}
-          {Preparation and delivery of teaching material for a class on Network Neuroscience}
+        \item{Preparation and delivery of teaching material for a class on Network Neuroscience}
       \resumeItemListEnd
 
     \resumeSubheading
       {Donders Institute for Brain, Cognition and Behaviour}{Nijmegen, The Netherlands}
       {Visiting Research Fellow}{Sept. 2018 - Oct. 2018}
       \resumeItemListStart
-        \resumeItem{Predictive Modeling}
-          {Contributed to development of \href{https://github.com/amarquand/nispat/graphs/contributors}{{\underline{Python library}}} used by institute and collaborators}
+        % \item{Development of machine learning \href{https://github.com/amarquand/nispat/graphs/contributors}{{\underline{Python library}}} for neuroimaging data}
+        \item{Development of machine learning Python library for neuroimaging data}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Monash Biomedical Imaging}{Melbourne, Australia}
-      {Research Assistant}{Jan. 2018 - Jan. 2019}
-      \resumeItemListStart
-        \resumeItem{PET Processing and Analysis}
-          {Assisted the development and testing of a continuous infusion PET protocol}
-      \resumeItemListEnd
+    % \resumeSubheading
+    %   {Monash Biomedical Imaging}{Melbourne, Australia}
+    %   {Research Assistant}{Jan. 2018 - Jan. 2019}
+    %   \resumeItemListStart
+    %     \resumeItem{PET Processing and Analysis}
+    %       {Assisted the development and testing of a continuous infusion PET protocol}
+    %   \resumeItemListEnd
 
     \resumeSubheading
       {Torus Games}{Melbourne, Australia}
-      {Research Fellow}{March 2016 - Oct. 2017}
+      {Research Consultant}{March 2016 - Oct. 2017}
       \resumeItemListStart
-        \resumeItem{Consulting}
-           {Communicated research goals to developers at Torus games and ensured all stakeholders interests were represented}
+        \item{Translated research goals to software developers}
+        \item{Mobile app development}
+        \item{Stakeholder management}
+        \item{Database design}
         % \resumeItem{Firebase}
           % {Consulted on workflows for ingest and storage of data in Firebase. Wrote code to download, process, and analyze data}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Monash University}{Melbourne, Australia}
+      {Doctor of Philosophy (Computational Neuroscience)}{2014 -- June 2019}
+      \resumeItemListStart
+        \item{Advanced quantitative analysis of high-dimensional multi-source data}
+        \item{Data processing pipeline design / implementation}
+        \item{Presenting complex information in an accessible format}
+        \item{Independent project management (including resource management)}
+        \item{Teaching Python / MATLAB programming, data cleaning, visualisation, cloud computing, statistical, and machine learning methods to students}
       \resumeItemListEnd
 
     % \resumeSubheading
@@ -165,10 +179,10 @@
 
 %-----------PROJECTS-----------------
 % What was the project? What did you try to find out? Were you successful? Why was it important?
-\section{Scientific Impact}
+\section{Projects}
   \resumeSubHeadingListStart
     \resumeSubItem{Successfully detected developmental brain abnormalities associated with psychiatric disorders}
-      {Predictive modeling project in brain development throughout childhood and adolescence. All \textbf{Python} code written in \textbf{Jupyter notebooks} publicly available on \href{https://github.com/lindenmp/NormativeNeuroDev_CrossSec}{\underline{Github}}}
+      {All \textbf{Python} code written in \textbf{Jupyter notebooks} publicly available on \href{https://github.com/lindenmp/NormativeNeuroDev_CrossSec}{\underline{Github}}}
       \newline
     \resumeSubItem{Discovered the genetic signatures of the human brain}
       {Machine learning on the intersection of human brain imaging and genetics. Provided novel framework for how to bring together different neuroimaging datasets through machine learning. \href{https://onlinelibrary.wiley.com/doi/full/10.1111/gbb.12386}{\underline{Paper}} ranked in the \textbf{top 20 downloaded} from the journal in 2017}
@@ -188,111 +202,114 @@
 % --------PROGRAMMING SKILLS------------
 \section{Skills}
  \resumeSubHeadingListStart
+   % \item{
+    % \textbf{Neuroimaging (analysis)}{: Magnetic Resonance Imaging (Structural, Diffusion, Functional), Positron Emission Tomography, Magnetoencephalography}
+    % }
+   % \item{
+    % \textbf{Neuroscience Tools}{: \href{https://www.fil.ion.ucl.ac.uk/spm/}{\underline{SPM}}, \href{https://fsl.fmrib.ox.ac.uk/fsl/fslwiki}{\underline{FSL}}, \href{https://www.mrtrix.org/}{\underline{MRtrix3}}, \href{https://afni.nimh.nih.gov/}{\underline{AFNI}}, \href{http://stnava.github.io/ANTs/}{\underline{ANTs}}}
+    % }
    \item{
-    \textbf{Neuroimaging (analysis)}{: Magnetic Resonance Imaging (Structural, Diffusion, Functional), Positron Emission Tomography, Magnetoencephalography}
+    \textbf{Machine Learning}{: Deep Learning, Supervised Classification, Unsupervised Clustering, Regression, Cross-validation, Model Scoring, Parameter Tuning, Feature Selection \& Standardization, Dimensionality Reduction}
     }
    \item{
-    \textbf{Neuroscience Tools}{: \href{https://www.fil.ion.ucl.ac.uk/spm/}{\underline{SPM}}, \href{https://fsl.fmrib.ox.ac.uk/fsl/fslwiki}{\underline{FSL}}, \href{https://www.mrtrix.org/}{\underline{MRtrix3}}, \href{https://afni.nimh.nih.gov/}{\underline{AFNI}}, \href{http://stnava.github.io/ANTs/}{\underline{ANTs}}}
+    \textbf{Statistics}{: Network Analysis, Time Series Analysis, A/B Testing, Analysis of Variance, Data Resampling, Dependent Data}
     }
+   % \item{
+   %  \textbf{Coding}{: Python (Pandas, NumPy, SciPy, Scikit-Learn, \href{https://pingouin-stats.org/}{\underline{Pingouin}}, Statsmodels, Matplotlib, Seaborn, \href{https://pygam.readthedocs.io/en/latest/}{\underline{pyGAM}}), Matlab, Shell, Git, Linux OS, High-Performance Computing, LaTeX; Familiar with: SQL}
+   %  }
    \item{
-    \textbf{Machine Learning}{: Classification (Decision Trees, SVC), Unsupervised Clustering, Regression (Linear, GPR, GAM, Regularization), Cross-validation, Model Scoring, Parameter Tuning, Feature Selection \& Standardization, Dimensionality Reduction}
-    }
-   \item{
-    \textbf{Statistics}{: Experimental Design, Null Hypothesis Testing, Analysis of Variance, Data Resampling (permutation, bootstrapping), Dependent Data (e.g., repeated measures), Bayesian Inference, Time Series Analysis, Network Science}
-    }
-   \item{
-    \textbf{Coding}{: Python (Pandas, NumPy, SciPy, Scikit-Learn, \href{https://pingouin-stats.org/}{\underline{Pingouin}}, Statsmodels, Matplotlib, Seaborn, \href{https://pygam.readthedocs.io/en/latest/}{\underline{pyGAM}}), Matlab, Shell, Git, Linux OS, LaTeX; Familiar with: SQL}
+    \textbf{Coding}{: Python, Matlab, SQL, Shell, Git, Linux OS, High-Performance Computing}
     }
  \resumeSubHeadingListEnd
 % \href{}{\underline{}}
 
-% %-----------EDUCATION-----------------
-% \section{Education}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    % \resumeSubheading
+    %   {Monash University}{Melbourne, Australia}
+    %   {Doctor of Philosophy (Neuroscience, Psychology, Psychiatry)}{2014 -- June 2019}
+    \resumeSubheading
+      {Swinburne University of Technology}{Melbourne, Australia}
+      {Bachelor of Science (Psychology, Psychophysiology)}{2009 -- 2013}
+      \item[] \textit{Honours (capstone research project), First Class, Dux (top of the class)}
+      % \item[] \textbf{Relevant Coursework}: Statistics, Design \& Research Methods, Technology \& Data Acquisition, Advanced Quantitative Methods
+  \resumeSubHeadingListEnd
+
+\centerline{\small{Full details of presentations, committee service, outreach, and mentorship available upon request.}}
+
+
+% %-----------FUNDING AND AWARDS-----------------
+% \section{Funding \& Awards}
 %   \resumeSubHeadingListStart
 %     \resumeSubheading
-%       {Monash University}{Melbourne, Australia}
-%       {Doctor of Philosophy (Neuroscience, Psychology, Psychiatry)}{2014 -- June 2019}
+%       {Monash University Postgraduade Publication Award}{Monash University}
+%       {\$6,300 AUD}{2018}
 %     \resumeSubheading
-%       {Swinburne University of Technology}{Melbourne, Australia}
-%       {Bachelor of Science (Psychology, Psychophysiology)}{2009 -- 2013}
-%       \item[] \textit{Honours (capstone research project), First Class, Dux (top of the class)}
-%       % \item[] \textbf{Relevant Coursework}: Statistics, Design \& Research Methods, Technology \& Data Acquisition, Advanced Quantitative Methods
+%       {Monash University Graduate Research Scholarship}{Monash University}
+%       {\$20,000 AUD}{2014 -- 2018}
+%     \resumeSubheading
+%       {Australian Postgraduate Award Research Scholarship}{Australian Government}
+%       {\$91,000 AUD}{2014 -- 2018}
+%     \resumeSubheading
+%       {Innovations Connections Grant}{Department of Industry, Innovation and Science, Australia}
+%       {\$50,000 AUD (associate investigator)}{2016}
+%     \resumeSubheading
+%       {Donders-Monash Erasmus Travel Award}{Donders Institute for Brain, Cognition and Behaviour}
+%       {\$3,200 AUD}{2018}
+%     \resumeSubheading
+%       {Future Leaders Travel Award}{Monash Institute of Cognitive and Clinical Neurosciences}
+%       {\$5,000 AUD}{2015}
 %   \resumeSubHeadingListEnd
 
-% \centerline{\small{Full details of presentations, committee service, outreach, and mentorship available upon request.}}
 
+% %-----------COMMUNICATION-----------------
+% \section{Invited Talks}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{Dimensional psychiatry in corticostriatal circuits}, The University of Pennsylvania, \textit{2018}
+%     \item[] \textbf{Transdiagnostic biomarkers in psychiatry}, Centre of Excellence for Integrative Brain Function, Melbourne, Australia, \textit{2018}
+%     \item[] \textbf{Confounds in rs-fMRI processing}, Swinburne Univerisity, Melbourne, Australia, \textit{2016}
+%   \resumeSubHeadingListEnd
 
-%-----------FUNDING AND AWARDS-----------------
-\section{Funding \& Awards}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Monash University Postgraduade Publication Award}{Monash University}
-      {\$6,300 AUD}{2018}
-    \resumeSubheading
-      {Monash University Graduate Research Scholarship}{Monash University}
-      {\$20,000 AUD}{2014 -- 2018}
-    \resumeSubheading
-      {Australian Postgraduate Award Research Scholarship}{Australian Government}
-      {\$91,000 AUD}{2014 -- 2018}
-    \resumeSubheading
-      {Innovations Connections Grant}{Department of Industry, Innovation and Science, Australia}
-      {\$50,000 AUD (associate investigator)}{2016}
-    \resumeSubheading
-      {Donders-Monash Erasmus Travel Award}{Donders Institute for Brain, Cognition and Behaviour}
-      {\$3,200 AUD}{2018}
-    \resumeSubheading
-      {Future Leaders Travel Award}{Monash Institute of Cognitive and Clinical Neurosciences}
-      {\$5,000 AUD}{2015}
-  \resumeSubHeadingListEnd
+% \section{Conference Oral Presentations}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{Transcriptional signatures of connectomic subregions of the human striatum}, Students of Brain Research, \textit{2015}
+%     \item[] \textbf{Examining the N400m in affectively negative sentences}, Australasian Cognitive Neuroscience Conference, \textit{2013}
+%   \resumeSubHeadingListEnd
 
+% \section{Conference Poster Presentations}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{Impulsivity and compulsivity correlate with effective connectivity in corticostriatal circuits}, Organization of Human Brain Mapping, \textit{2019}
+%     \item[] \textbf{Impulsivity and compulsivity correlate with effective connectivity in corticostriatal circuits}, Australasian Cognitive Neuroscience Conference, \textit{2018}
+%     \item[] \textbf{Evaluating the efficacy and sensitivity of motion correction strategies for rs-fMRI}, Organization of Human Brain Mapping, \textit{2018}
+%     \item[] \textbf{An evaluation of the efficacy, reliability, and sensitivity of motion correction strategies for resting-state functional MRI}, IEEE International Symposium on Biomedical Imaging, \textit{2017}
+%   \resumeSubHeadingListEnd
 
-%-----------COMMUNICATION-----------------
-\section{Invited Talks}
-  \resumeSubHeadingListStart
-    \item[] \textbf{Dimensional psychiatry in corticostriatal circuits}, The University of Pennsylvania, \textit{2018}
-    \item[] \textbf{Transdiagnostic biomarkers in psychiatry}, Centre of Excellence for Integrative Brain Function, Melbourne, Australia, \textit{2018}
-    \item[] \textbf{Confounds in rs-fMRI processing}, Swinburne Univerisity, Melbourne, Australia, \textit{2016}
-  \resumeSubHeadingListEnd
+% %-----------SERVICE-----------------
+% \section{Supervision \& Mentorship}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{1 * PhD Student | 6 * Undergraduate Students | 1 * Visiting Scholar}
+%   \resumeSubHeadingListEnd
 
-\section{Conference Oral Presentations}
-  \resumeSubHeadingListStart
-    \item[] \textbf{Transcriptional signatures of connectomic subregions of the human striatum}, Students of Brain Research, \textit{2015}
-    \item[] \textbf{Examining the N400m in affectively negative sentences}, Australasian Cognitive Neuroscience Conference, \textit{2013}
-  \resumeSubHeadingListEnd
+% \section{Peer Review}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{NeuroImage | Network Neuroscience | Psychiatry Research: Neuroimaging | Scientific Reports}
+%   \resumeSubHeadingListEnd
 
-\section{Conference Poster Presentations}
-  \resumeSubHeadingListStart
-    \item[] \textbf{Impulsivity and compulsivity correlate with effective connectivity in corticostriatal circuits}, Organization of Human Brain Mapping, \textit{2019}
-    \item[] \textbf{Impulsivity and compulsivity correlate with effective connectivity in corticostriatal circuits}, Australasian Cognitive Neuroscience Conference, \textit{2018}
-    \item[] \textbf{Evaluating the efficacy and sensitivity of motion correction strategies for rs-fMRI}, Organization of Human Brain Mapping, \textit{2018}
-    \item[] \textbf{An evaluation of the efficacy, reliability, and sensitivity of motion correction strategies for resting-state functional MRI}, IEEE International Symposium on Biomedical Imaging, \textit{2017}
-  \resumeSubHeadingListEnd
+% \section{Committees}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{Treasurer}, Organization of Human Brain Mapping, Student and Postdoc Special Interest Group, \textit{2019}
+%     \item[] \textbf{Member}, Australasian Cognitive Neuroscience Society, Early Career Researchers Committee, \textit{2017}
+%     \item[] \textbf{Member}, Australasian Cognitive Neuroscience Society, Executive Committee, \textit{2017}
+%     \item[] \textbf{Treasurer}, Students of Brain Research, \textit{2016}
+%   \resumeSubHeadingListEnd
 
-%-----------SERVICE-----------------
-\section{Supervision \& Mentorship}
-  \resumeSubHeadingListStart
-    \item[] \textbf{1 * PhD Student | 6 * Undergraduate Students | 1 * Visiting Scholar}
-  \resumeSubHeadingListEnd
-
-\section{Peer Review}
-  \resumeSubHeadingListStart
-    \item[] \textbf{NeuroImage | Network Neuroscience | Psychiatry Research: Neuroimaging | Scientific Reports}
-  \resumeSubHeadingListEnd
-
-\section{Committees}
-  \resumeSubHeadingListStart
-    \item[] \textbf{Treasurer}, Organization of Human Brain Mapping, Student and Postdoc Special Interest Group, \textit{2019}
-    \item[] \textbf{Member}, Australasian Cognitive Neuroscience Society, Early Career Researchers Committee, \textit{2017}
-    \item[] \textbf{Member}, Australasian Cognitive Neuroscience Society, Executive Committee, \textit{2017}
-    \item[] \textbf{Treasurer}, Students of Brain Research, \textit{2016}
-  \resumeSubHeadingListEnd
-
-\section{Outreach \& Community Engagement}
-  \resumeSubHeadingListStart
-    \item[] \textbf{Co-organiser}, NeuroDay, Methodist Ladies’ College, Melbourne, Australia, \textit{2018}
-    \item[] \textbf{Co-organiser}, BMH Mentor Forum, Brain \& Mental Health Research Hub, Monash University, \textit{2018}
-    \item[] \textbf{Co-organiser}, MBI Student Forum, Monash Biomedical Imaging, Monash University, \textit{2014 -- 2015}
-  \resumeSubHeadingListEnd
+% \section{Outreach \& Community Engagement}
+%   \resumeSubHeadingListStart
+%     \item[] \textbf{Co-organiser}, NeuroDay, Methodist Ladies’ College, Melbourne, Australia, \textit{2018}
+%     \item[] \textbf{Co-organiser}, BMH Mentor Forum, Brain \& Mental Health Research Hub, Monash University, \textit{2018}
+%     \item[] \textbf{Co-organiser}, MBI Student Forum, Monash Biomedical Imaging, Monash University, \textit{2014 -- 2015}
+%   \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
